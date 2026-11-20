@@ -1,0 +1,27 @@
+<!-- Q11. Make a page accessible using language, alt text, ARIA labels, a skip link and a proper heading. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Accessible Page</title>
+</head>
+<body>
+    <a href="#main">Skip to main content</a>
+    <br>
+    <a href="#help">Home Help</a>
+
+    <main id="main">
+        <h1>Accessible Page</h1>
+
+        <img src="college.png" alt="College Logo" width="150" height="50">
+
+        <button type="button" aria-label="Close">X</button>
+
+        <br><br>
+
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search" aria-label="Search">
+
+        <p id="help">Help section</p>
+    </main>
+</body>
+</html>
